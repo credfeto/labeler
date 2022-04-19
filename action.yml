@@ -12,6 +12,9 @@ inputs:
     description: 'Whether or not to remove labels when matching files are reverted'
     default: false
     required: false
+  pr-number:
+    description: 'The pull request number'
+    required: false
 
 runs:
   using: 'node16'
